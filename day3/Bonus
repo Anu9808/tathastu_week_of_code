@@ -1,0 +1,15 @@
+
+# with O(n) time complexity
+def least(arr): 
+    n = len(arr)
+    final = 1
+    for i in range (0, n ): 
+        if arr[i] <= final: 
+            final = final + arr[i] 
+            print(final)
+        else: 
+            break
+    return final
+    
+list1 = list(map(int, input().strip().split()))
+print(least(list1))
