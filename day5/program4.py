@@ -19,6 +19,6 @@ def main():
       wt.append(int(input("Enter weight of item " + str(i+1) + " : ")))
   bag = int(input("Enter size of knapsack: "))
 
-  print("Total value of knapsack :", knapsack(bag, wt, val, n)) 
+  print("Total value of Knapsack bag :", knapsack(bag, wt, val, n)) 
   
 main()
